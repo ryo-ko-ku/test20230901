@@ -1,0 +1,175 @@
+/* CSS */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #333;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+}
+
+.header a {
+  /* aタグのリンク下線部を消す */
+  text-decoration: none;
+  color: #fff;
+}
+.header a:hover{
+  color:rgb(70, 183, 249);
+}
+
+.mainContent {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.row {
+  margin-bottom: 30px;
+}
+
+.row h2 {
+  margin-bottom: 10px;
+  padding-bottom: 5px; /* 問題タイトルの下に少し余白を設定 */
+  border-bottom: 1px solid #ccc; /* 問題タイトルの下にボーダーラインを表示 */
+}
+
+form {
+  margin-top: 15px;
+}
+
+form p {
+  margin-bottom: 5px;
+}
+
+label {
+  margin-right: 15px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+#ans601:hover{
+  opacity: 0.9;
+  background-color: #7a7a7a;
+}
+#ans602:hover{
+  opacity: 0.9;
+  background-color: #7a7a7a;
+}
+#ans603:hover{
+  opacity: 0.9;
+  background-color: #7a7a7a;
+}
+#ans604:hover{
+  opacity: 0.9;
+  background-color: #7a7a7a;
+}
+#ans605:hover{
+  opacity: 0.9;
+  background-color: #7a7a7a;
+}
+
+input[type="radio"] {
+  margin-right: 5px; /* ラジオボタンと選択肢の間隔を調整 */
+}
+
+/* */
+.button-container {
+  display: flex;
+  /* justify-content: space-between; */
+  margin-top: 20px;
+}
+
+.formbtn {
+  flex-basis: 30%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#listbtn{
+  background-color:#3557f0;
+  margin-left: 35px;
+}
+#listbtn:hover{
+  background-color:rgb(128, 151, 255);
+}
+.formbtn:hover{
+  opacity: 0.9;
+  background-color: #7a7a7a;
+}
+
+/* */
+.preview {
+  /* position: fixed; */
+  margin-top: 20px;
+  bottom: 10px;
+  right: 10px;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+/*トップバー*/
+.top-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /*要調整*/
+  height: 60px;
+  background-color: #989898;
+  opacity: 0.2;
+  z-index: 9999; /* コンテンツより手前に表示 */
+}
+
+/* ログアウトボタン */
+#logoutbtn {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  padding: 8px 15px;
+  /*要調整*/
+  background-color: #ff5776;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#logoutbtn:hover{
+  opacity: 1;
+  background-color: #ff0a37;
+  color: #ffffff;
+}
+
+/* ホバー時のスタイル */
+.top-bar:hover {
+  opacity: 1;
+  background-color: #d8d8d8;
+}
+
+.maru{
+  color: red;
+  font-size: 40px;
+  font-weight: bold;
+}
+.batu{
+  color: blue;
+  font-size: 40px;
+  font-weight: 600;
+  font-style: bold;
+}

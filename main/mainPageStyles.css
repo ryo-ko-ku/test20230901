@@ -1,0 +1,149 @@
+/* 共通CSS */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.mainContent {
+  /*ココ違和感だけど、崩すと全体レイアウト崩れる恐れ*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  /*viewport */
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.button-container {
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.row {
+  display: flex; 
+  flex-wrap: wrap;  
+  align-items: center; 
+  /* 100%に  今後レスポンシブデザイン見越して*/
+  width: 100%;
+  margin-bottom: 20px;
+  justify-content: space-between; /* 追加：要素を両端に配置 */
+}
+
+.checkbox-wrapper {
+  /* チェックボックスだけ横並びにする（inline-block指定） */
+  display: inline-block;
+  text-align: center;
+  margin-right: 30px;
+}
+
+.checkbox-wrapper input[type="checkbox"] {
+  display: none;
+}
+
+.checkbox-wrapper label {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #fff; /* チェックボックスの背景を白に変更 */
+  border: 2px solid #000; /* チェックボックスの枠線を黒に変更 */
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.checkbox-wrapper input[type="checkbox"]:checked + label {
+  background-color: #6c757d;
+}
+
+.linkbtn {
+  background-color: #6c757d;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  width: 450px; /*これ書いても大丈夫ですか？ */
+  /*width: 60%;    幅指定を */
+  letter-spacing: 10px; /* 微調整してね */
+}
+
+.linkbtn:hover {
+  background-color: #495057;
+}
+
+.footer {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+/* .footer button {
+  background-color: #6c757d;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer button:hover {
+  background-color: #495057;
+} */
+
+
+
+/* JSがクラスを追加 */
+.checked-mark {
+  
+  color: green; /* チェックマークの色を緑に変更 */
+  font-size: 26px;
+}
+.checked-box{
+  background-color: white; /* チェック済みの背景色を白に変更 */
+}
+
+.numLogo{
+  /* spanをインラインブロック要素に */
+  display: inline-block;
+  font-size: 20px;
+  padding: 5px;
+  /* margin-right: 15px; */
+  margin-left: 15px;
+}
+.dbResult{
+  font-size: 20px;
+  margin-left: auto; /* 追加：右寄せにするためにmargin-leftをautoに設定 */
+}
+.footer button{
+  padding: 10px 20px;
+  /*要調整*/
+  background-color: #ff4466;
+  opacity: 0.8;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.footer button:hover{
+  opacity: 1;
+  background-color: #ff0a37;
+  color: #ffffff;
+}
+
