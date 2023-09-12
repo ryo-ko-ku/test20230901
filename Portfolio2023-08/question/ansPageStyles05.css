@@ -1,0 +1,191 @@
+/* CSS */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.header a {
+  color: #fff;
+  text-decoration: none;
+  /* display: block;
+  text-align: center;
+  width: 1000px;
+	height: 100px;
+  margin: 10px 200px;
+  padding: 10px; */
+}
+
+.header a:hover{
+  color:rgb(128,151,255);
+}
+
+.mainContent {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.maru {
+  color: #ff0000;
+  font-size: 100px;
+  /* font-weight: 900; */
+  font-weight: bold;
+  /* font-family: "Meiryo"; */
+}
+
+.batu {
+  color: #0000ff;
+  font-size: 60px;
+  font-weight: bold;
+  /* font-family: "Meiryo"; */
+}
+
+.row {
+  margin-bottom: 30px;
+}
+
+.row h2 {
+  margin-bottom: 10px;
+  padding-bottom: 5px; /* 問題タイトルの下に少し余白を設定 */
+  border-bottom: 1px solid #ccc; /* 問題タイトルの下にボーダーラインを表示 */
+}
+
+form {
+  margin-top: 15px;
+}
+
+form p {
+  margin-bottom: 5px;
+}
+
+label {
+  margin-right: 15px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+#a501:hover{
+  opacity: 0.9;
+  background-color: #7a7a7a;
+}
+#a502:hover{
+  opacity: 0.9;
+  background-color: #7a7a7a;
+}
+#a503:hover{
+  opacity: 0.9;
+  background-color: #7a7a7a;
+}
+#a504:hover{
+  opacity: 0.9;
+  background-color: #7a7a7a;
+}
+#a505:hover{
+  opacity: 0.9;
+  background-color: #7a7a7a;
+}
+input[type="radio"] {
+  margin-right: 5px; /* ラジオボタンと選択肢の間隔を調整 */
+}
+
+/* */
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.button-container button {
+  flex-basis: 30%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-container button:hover{
+  color: #ffffff;
+  background-color:gray;
+}
+
+#mainButton {
+  flex-basis: 30%;
+  background-color: #3557f0;
+  color: #fff;
+  width: 230px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#mainButton:hover {
+  color: #ffffff;
+  background-color:rgb(128, 151, 255);
+}
+
+/* */
+.preview {
+  /* position: fixed; */
+  margin-top: 20px;
+  bottom: 10px;
+  right: 10px;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.logout-button {
+  display: flex;
+  justify-content: center;
+  /* justify-content: space-between; */
+  margin-top: 20px;
+}
+
+#logoutbtn {
+  flex-basis: 30%;
+  color: #fff;
+  background-color:rgb(255, 33, 63);
+  width: 230px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 auto;
+  /* margin 0だけだと左寄せ、0　autoだと中央に来る  */
+}
+
+#logoutbtn:hover{
+  color: #ffffff;
+  background-color:rgb(255, 75, 99);
+}
+
+/* #logoutbtn {
+  flex-basis: 30%;
+  background-color: #3557f0;
+  color: #fff;
+  width: 230px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+} */
